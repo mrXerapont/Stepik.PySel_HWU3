@@ -6,7 +6,7 @@ def test_add_to_card_btn_should_exist(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.implicitly_wait(10)
     browser.get(link)
-    time.sleep(30)
+    #time.sleep(30)
 
     # Не знаю какой вариант оставить, оставлю этот тут для себя
     # btn_pre = browser.find_elements_by_css_selector("#add_to_basket_form .btn-add-to-basket")
